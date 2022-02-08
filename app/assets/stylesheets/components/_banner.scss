@@ -3,7 +3,8 @@
   background-position: center;
   padding: 150px 0;
   height: 54em;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://github.com/IvanSchlagheck/MUGMUG/blob/main/app/assets/images/banner-img.png?raw=true);
+  position: relative; //<------ I set it to relative so i can move its children
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../../images/banner-img.png");
 }
 
 .banner h1 {
@@ -11,18 +12,28 @@
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 10em;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: $trump;
 }
 
 .banner p {
   font-size: 20px;
+  font-family: $trump;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+.banner .container {
+  position: absolute; //<------ I set it to absolute so it can overlap the black line
+  left: 6em;
+
+}
+
 .black-line-title {
-  background-color: black;
-  width: 10em;
-  height: 6em;
+   background-color: black;
+  width: 61em;
+  height: 10em;
+  position: relative; //<------ I set it to absolute so i can move it freely
+  top: 11em;
 }
