@@ -1,1 +1,6 @@
 // Specific CSS for your home-page
+@media (max-width: 600px) {
+  body {
+    width: 64em
+  }
+}

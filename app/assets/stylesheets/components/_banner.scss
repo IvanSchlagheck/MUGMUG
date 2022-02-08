@@ -4,36 +4,111 @@
   padding: 150px 0;
   height: 54em;
   position: relative; //<------ I set it to relative so i can move its children
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../../images/banner-img.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../images/banner-img.png");
 }
 
 .banner h1 {
   margin: 0;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 10em;
   font-weight: 400;
   font-family: $trump;
 }
 
-.banner p {
-  font-size: 20px;
-  font-family: $trump;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
-
 .banner .container {
   position: absolute; //<------ I set it to absolute so it can overlap the black line
   left: 6em;
-
+  top: 13em;
 }
 
 .black-line-title {
-   background-color: black;
+  background-color: black;
   width: 61em;
   height: 10em;
   position: relative; //<------ I set it to absolute so i can move it freely
-  top: 11em;
+  top: 5em;
+}
+
+.banner h3 {
+  margin: 0;
+  padding-top: 0.5em;
+  color: white;
+  // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 5em;
+  font-weight: 400;
+  font-family: $trump;
+  position: absolute;
+  top: 2.3em;
+}
+
+.black-line-music {
+  background-color: black;
+  width: 33em;
+  height: 7em;
+  position: relative; //<------ I set it to absolute so i can move it freely
+  top: 2em;
+  transform: rotate(4.4deg);
+}
+
+.black-line-arts {
+  background-color: black;
+  width: 42em;
+  height: 7em;
+  position: relative;
+  top: -5em;
+  left: 39em;
+  transform: rotate(4.4deg);
+}
+
+.banner p {
+  font-size: 2.5em;
+  font-family: $roboto;
+  color: black;
+  font-weight: 800;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .banner {
+    width: 88em;
+    height: 186em;
+  }
+
+  .banner .container {
+    padding-right: 1em;
+    left: 3em;
+    width: 61em;
+  }
+
+  .black-line-title {
+    width: 100%;
+  }
+
+  .banner h3 {
+    padding-top: 0.5em;
+    top: 3.5em;
+    right: 1em;
+    text-align: center;
+  }
+
+  .black-line-music {
+    top: 8em;
+    left: 2em;
+  }
+
+  .black-line-arts {
+    top: 2em;
+    left: 42em;
+  }
+
+  .banner p {
+    position: absolute;
+    top: 8em;
+    right: 1.7em;
+    width: 10em;
+    font-size: 5em;
+    text-align: center;
+  }
 }
