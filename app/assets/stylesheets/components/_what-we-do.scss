@@ -1,7 +1,7 @@
 .wrapper {
   height: 200em;
   width: 100%;
-  background-image:url("../../images/banner-img.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/banner-img.png");
   background-position: center center;
   background-repeat: repeat;
   background-size: 30em;
