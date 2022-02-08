@@ -34,3 +34,67 @@
   top: 20em;
   color: white;
 }
+
+.card-black-back {
+  background-color: black;
+  height: 14em;
+  width: 60em;
+  position: absolute;
+}
+
+.wide-card {
+  display: flex;
+  align-items: center;
+}
+// ----- Cultural Founding--------
+#wide-card-1 {
+  transform: rotate(4.4deg);
+  right: -84em;
+  top: 0em;
+}
+
+.cultural-founding {
+  position: absolute;
+  right: -16.5em;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 700;
+  font-size: 3em;
+  top: 0em;
+}
+
+.cultural-founding-text {
+  position: absolute;
+  width: 26em;
+  height: 3em;
+  left: 25em;
+  top: 4em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.6em;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+}
+
+// ----- External Projects Management--------
+
+#wide-card-2 {
+  transform: rotate(-4.4deg);
+  left: -23em;
+}
+
+// ----- Events--------
+
+#wide-card-3 {
+  transform: rotate(4.4deg);
+  right: -23em;
+}
+
+// ----- Content Creation--------
+
+#wide-card-4 {
+  transform: rotate(-4.4deg);
+  left: -23em;
+}
