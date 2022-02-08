@@ -1,0 +1,36 @@
+.wrapper {
+  height: 200em;
+  width: 100%;
+  background-image:url("../../images/banner-img.png");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 30em;
+}
+
+.wwd-container {
+  position: relative;
+}
+
+.wwd-container h3 {
+  position: absolute;
+  color: white;
+  font-family: $roboto;
+  font-size: 2.2em;
+  font-weight: 600;
+  letter-spacing: 0.7em;
+  top: 5em;
+}
+
+.white-underline {
+  background-color: white;
+  height: 0.3em;
+  position: relative;
+  top: 13.9em;
+  width: 26em;
+}
+
+.wide-cards-wrapper {
+  position: absolute;
+  top: 20em;
+  color: white;
+}

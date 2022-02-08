@@ -17,7 +17,7 @@
   font-family: $trump;
 }
 
-.banner .container {
+.banner .banner-container {
   position: absolute; //<------ I set it to absolute so it can overlap the black line
   left: 6em;
   top: 13em;
@@ -76,7 +76,7 @@
     height: 186em;
   }
 
-  .banner .container {
+  .banner .banner-container {
     padding-right: 1em;
     left: 3em;
     width: 61em;
