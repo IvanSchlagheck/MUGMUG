@@ -1,11 +1,10 @@
 .banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./banner-gif-2.gif");
   background-size: cover;
   background-position: center;
   padding: 150px 0;
   height: 54em;
   position: relative; //<------ I set it to relative so i can move its children
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../../images/banner.gif");
 }
 
 .banner h1 {
