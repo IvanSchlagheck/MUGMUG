@@ -1,7 +1,8 @@
 .wrapper {
-  height: 200em;
+  height: 120em;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/banner-img.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../images/banner-img.png");
   background-position: center center;
   background-repeat: repeat;
   background-size: 30em;
@@ -33,6 +34,7 @@
   position: absolute;
   top: 20em;
   color: white;
+  height: 121em;
 }
 
 .card-black-back {
@@ -46,28 +48,18 @@
   display: flex;
   align-items: center;
 }
-// ----- Cultural Founding--------
-#wide-card-1 {
-  transform: rotate(4.4deg);
-  right: -84em;
-  top: 0em;
-}
 
-.cultural-founding {
+.card-title {
   position: absolute;
-  right: -16.5em;
   font-family: "Roboto", "sans-serif";
   font-weight: 700;
   font-size: 3em;
-  top: 0em;
 }
 
-.cultural-founding-text {
+.card-text {
   position: absolute;
   width: 26em;
   height: 3em;
-  left: 25em;
-  top: 4em;
   font-family: Roboto;
   font-style: normal;
   font-weight: 800;
@@ -78,23 +70,72 @@
   letter-spacing: -0.05em;
 }
 
+// ----- Cultural Founding--------
+#wide-card-1 {
+  transform: rotate(4.4deg);
+  right: -99em;
+  top: 0em;
+}
+
+#cf-title {
+  top: 0em;
+  right: -21.5em;
+}
+
+#cf-text {
+  left: 35em;
+  top: 4em;
+}
+
 // ----- External Projects Management--------
 
 #wide-card-2 {
   transform: rotate(-4.4deg);
-  left: -23em;
+  left: -18em;
+  top: 25em;
 }
 
+#epm-title {
+  top: 9em;
+  right: -13.9em;
+}
+
+#epm-text {
+  left: -10em;
+  top: 20em;
+}
 // ----- Events--------
 
 #wide-card-3 {
   transform: rotate(4.4deg);
-  right: -23em;
+  right: -99em;
+  top: 47em;
+}
+
+#ev-title {
+  top: 15.5em;
+  right: -17.5em;
+}
+
+#ev-text {
+  left: 35em;
+  top: 33em
 }
 
 // ----- Content Creation--------
 
 #wide-card-4 {
   transform: rotate(-4.4deg);
-  left: -23em;
+  left: -18em;
+  top: 69em;
+}
+
+#cc-title {
+  top: 23em;
+  right: -13em;
+}
+
+#cc-text {
+  left: -10em;
+  top: 47em;
 }
