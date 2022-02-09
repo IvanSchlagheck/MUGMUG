@@ -4,8 +4,8 @@
   padding: 150px 0;
   height: 54em;
   position: relative; //<------ I set it to relative so i can move its children
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../../images/banner-img.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../images/banner.gif");
 }
 
 .banner h1 {

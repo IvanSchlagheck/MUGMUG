@@ -1,0 +1,27 @@
+.hwd-wrapper {
+  height: 120em;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../images/banner-img.png");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 22em;
+}
+
+.hwd-container h3 {
+  position: absolute;
+  color: white;
+  font-family: $roboto;
+  font-size: 3.2em;
+  font-weight: 900;
+  letter-spacing: 0.7em;
+  top: 59em;
+}
+
+.hwd-white-underline {
+  background-color: white;
+  height: 0.3em;
+  position: relative;
+  top: 13.9em;
+  width: 43em;
+}
