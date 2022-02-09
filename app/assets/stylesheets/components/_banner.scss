@@ -1,7 +1,8 @@
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./banner-gif-2.gif");
-  background-size: cover;
+ // background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/banner-gif-2.gif");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://media0.giphy.com/media/85p0dpfRvPnfa/giphy.gif?cid=ecf05e47p76qe1zr4wtcu12gz8i7ln61z677v0xazi6p2lb1&rid=giphy.gif&ct=g");
   background-position: center;
+  background-size: cover;
   padding: 150px 0;
   height: 54em;
   position: relative; //<------ I set it to relative so i can move its children
