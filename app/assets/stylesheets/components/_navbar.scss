@@ -1,14 +1,15 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: black;
+  background: white;
   height: 5em;
 }
 
 .logo{
-  color:white;
-  text-decoration: none;
-  font-size: 2em;
-  padding-left: 2em;
+  background-image: url("../../images/logo-words.png");
+  background-size: cover;
+  background-position: center;
+  height: 3em;
+  width: 7em;
 }
 
 .navbar-lewagon .navbar-collapse {
