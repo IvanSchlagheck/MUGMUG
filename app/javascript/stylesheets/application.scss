@@ -1,0 +1,11 @@
+.banner {
+  background: url("../images/banner-gif-2.gif");
+} // <-- aplico desde aca el glitch porque por problemas entre los archivos de javascript no compila desde el otro archivo (assets/components/banner.scss)
+
+.logo{
+  background-image: url("../images/logo-words.png");// <-- aplico desde aca la imagen porque por problemas entre los archivos de javascript no compila desde el otro archivo (assets/components/navbar.scss)
+}
+
+.black-line-title {
+  background-image: url("../images/logo-words.png");// <-- aplico desde aca la imagen porque por problemas entre los archivos de javascript no compila desde el otro archivo (assets/components/navbar.scss)  
+}

@@ -1,6 +1,5 @@
 .banner {
-  //background-image: url("../../assets/images/banner-img.png");
-  background: url("/../../images/banner-img.png");
+  //background-image: url("../../assets/images/banner-img.png"); <----- esta linea esta en javascript/stylesheets/application.scss
   background-position: center;
   background-size: cover;
   padding: 150px 0;
@@ -24,7 +23,6 @@
 }
 
 .black-line-title {
-  background-color: white;
   width: 61em;
   height: 10em;
   position: relative; //<------ I set it to absolute so i can move it freely

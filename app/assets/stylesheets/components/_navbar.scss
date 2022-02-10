@@ -5,11 +5,11 @@
 }
 
 .logo{
-  background-image: url("../../images/logo-words.png");
+  // background-image: url("../../images/logo-words.png"); <----- esta linea esta en javascript/stylesheets/application.scss
   background-size: cover;
   background-position: center;
-  height: 3em;
-  width: 7em;
+  height: 5.5em;
+  width: 25em;
 }
 
 .navbar-lewagon .navbar-collapse {
