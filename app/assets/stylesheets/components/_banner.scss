@@ -1,0 +1,391 @@
+.banner {
+  //background-image: url("../../assets/images/banner-img.png"); <----- esta linea esta en javascript/stylesheets/application.scss
+  background-image: url("https://i.ibb.co/CB60mMx/MOSHED-2022-2-9-18-49-44.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+  height: 116em;
+  position: relative; //<------ I set it to relative so i can move its children
+}
+
+.banner h1 {
+  margin: 0;
+  color: black;
+  // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 10em;
+  font-weight: 400;
+  font-family: $trump;
+}
+
+.banner .banner-container {
+  position: absolute;
+  left: 19em;
+  top: 67em;
+}
+
+.banner-logo {
+  width: 49em;
+  height: 20em;
+  left: 18em;
+  top: 5em;
+  position: relative;
+  background-color: white;
+}
+
+.banner-white-border {
+  border: white 9px solid;
+  width: 86em;
+  height: 32em;
+  margin: auto;
+}
+
+.white-line-banner-1 {
+  background-color: white;
+  height: 0.5em;
+  width: 95em;
+  left: -23em;
+  top: 9em;
+  position: absolute;
+}
+
+.white-line-banner-2 {
+  background-color: white;
+  height: 0.3em;
+  width: 95em;
+  left: -23em;
+  top: 12em;
+  position: absolute;
+}
+
+#banner-image {
+  position: absolute;
+  top: 5em;
+  left: 9em;
+  z-index: 1;
+}
+
+.banner h3 {
+  margin: 0;
+  padding-top: 0.5em;
+  color: white;
+  font-size: 5em;
+  font-weight: 400;
+  font-family: "Trump Mediaeval", "serif";
+  position: absolute;
+  top: -2em;
+  z-index: 1;
+  width: 18em;
+  padding: 0.5em;
+  left: -1em;
+  border: white solid 12px;
+}
+
+.black-line-music {
+  background-color: white;
+  width: 34em;
+  height: 7em;
+  position: relative;
+  top: 14em;
+  // transform: rotate(4.4deg);
+}
+
+.black-line-arts {
+  background-color: white;
+  width: 41em;
+  height: 7em;
+  position: relative;
+  top: 7em;
+  left: 41em;
+  // transform: rotate(4.4deg);
+}
+
+.banner-content-white-line {
+  height: 0.3em;
+  width: 95em;
+  background-color: white;
+  position: absolute;
+  left: -7em;
+  top: -1em;
+}
+
+.banner p {
+  font-size: 2.5em;
+  font-family: "Roboto", "sans-serif";
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.banner-p-blue {
+  background-color: rgba(63, 138, 236, 0.966);
+  padding: 0.4em;
+}
+
+
+.banner-button {
+  border: 5px white solid;
+  width: 24em;
+  height: 5em;
+  position: absolute;
+  left: 29em;
+  top: 30em;
+}
+
+.banner-button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", "sans-serif";
+  font-size: 2em;
+  text-align: center;
+  position: absolute;
+  top: 0.3em;
+  left: 1.7em;
+  background-color: white;
+  z-index: 1;
+  width: 8em;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner-button a:hover {
+  color:black;
+  transform: scale(1.1);
+}
+
+.button-white-line {
+  height: 0.3em;
+  width: 43em;
+  background-color: white;
+  position: absolute;
+  left: -8em;
+  top: 2em;
+}
+
+
+@media (max-width: 1600px) {
+  
+  .banner-content-white-line {
+    width: 100%;
+    left: 0em;
+  }
+  
+  .banner .banner-container {
+    left: 31em;
+    font-size: 0.8em;
+    top: 77em;
+  }
+  
+  .black-line-arts {
+    width: 35em;
+    left: 43em;
+	}
+
+  .black-line-music {
+    left: 8em;
+    width: 29em;
+  }
+
+  .banner-white-border {
+    width: 70em;
+  }
+
+  .banner h3 {
+    width: 18em;
+    left: 1.8em;
+}
+
+  .banner p {
+    width: 22em;
+    left: 7.1em;
+    top: 8em;
+    position: absolute;
+  }
+  
+  .white-line-banner-1 {
+    width: 79em;
+    left: -15em;
+  }
+
+  .white-line-banner-2 {
+    width: 79em;
+    left: -15em;
+  }
+  
+  .banner-logo {
+    left: 10em;
+  }
+
+  .banner-button {
+    left: 34em;
+    top: 56em;
+  }
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    
+    .banner .banner-container {
+      left: 9%;
+      font-size: 0.8em;
+      top: 77em;
+      width: 102em;
+    }
+
+    .black-line-music {
+      left: -1em;
+      width: 30em;
+    }
+
+    .black-line-arts {
+      width: 35em;
+      left: 34em;
+    }
+
+    .banner-content-white-line {
+      width: 100%;
+      left: 4em;
+    }
+  
+    .banner-white-border {
+      width: 70em;
+    }
+  
+    .banner h3 {
+      width: 18em;
+      left: 2em;
+  }
+  
+    .banner p {
+      width: 22em;
+      left: 11.1em;
+      top: 3em;
+      position: absolute;
+    }
+    
+    .white-line-banner-1 {
+      width: 79em;
+      left: -15em;
+    }
+  
+    .white-line-banner-2 {
+      width: 79em;
+      left: -15em;
+    }
+    
+    .banner-logo {
+      left: 10em;
+    }
+  
+    .banner-button {
+      left: 44em;
+      top: 56em;
+    }
+  
+}
+
+
+@media (max-width: 600px) {
+  .banner {
+    width: 88.5em;
+    height: 186em;
+  }
+
+  .banner .banner-container {
+    padding-right: 1em;
+    left: 13em;
+    width: 61em;
+    top: 45em;
+  }
+
+  .banner-logo {
+    width: 95%;
+    height: 24em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 2em;
+    top: 3.5em;
+  }
+
+  #banner-image {
+    position: absolute;
+    top: 3em;
+    left: 4em;
+    z-index: 1;
+    width: 56em;
+  }
+  
+  .white-line-banner-1{
+    display: none;
+  }
+
+  .white-line-banner-2{
+    display: none;
+  }
+
+  .banner-content-white-line {
+    display: none;
+  }
+
+  .banner h3 {
+    padding-top: 0.5em;
+    top: 2.5em;
+    left: 1em;
+    text-align: center;
+    font-size: 8em;
+    width: 9em;
+  }
+
+  .black-line-music {
+    top: 24em;
+    left: 9em;
+    width: 66em;
+    height: 9em;
+    transform: rotate(0deg);
+  }
+
+  .black-line-arts {
+    top: 25em;
+    left: 8em;
+    width: 68em;
+    height: 9em;
+    transform: rotate(0deg);
+  }
+
+  .banner p {
+    position: absolute;
+    top: 7em;
+    left: 2em;
+    width: 10em;
+    font-size: 6em;
+    text-align: center;
+  }
+
+  .banner-button {
+    top: 150em;
+    left: 15em;
+    border: 15px white solid;
+    width: 55em;
+    height: 11em;
+  }
+
+  .banner-button a {
+    left: 1.8em;
+    font-size: 4.5em;
+  }
+
+  .button-white-line {
+    height: 1.5em;
+    width: 70em;
+    background-color: white;
+    position: absolute;
+    top: 4em;
+    left: -8em;
+  } 
+
+}

@@ -1,0 +1,89 @@
+.section-contact {
+  height: 80em;
+  background-image: url("../../images/banner-img.png");
+  position: relative;
+}
+
+.section-title-contact h3 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-family: "Roboto", "sans-serif";
+  font-size: 3em;
+  font-weight: 700;
+  top: 1.4em; 
+  left: 6.8em;
+}
+
+.bl-contact {
+  background-color: black;
+  width: 18em;
+  height: 5em;
+  position: absolute;
+  top: 3.5em;
+  transform: rotate(4.4deg);
+}
+
+.contact-text {
+  position: absolute;
+  background-color: black;
+  height: 60em;
+  width: 70em;
+  top: 13em;
+  left: 28em;
+}
+
+.contact-text-whiteborder {
+  border: white solid 0.1em;
+  height: 58em;
+  width: 68em;
+  padding-top: 0em;
+  margin: 1em auto;
+}
+
+.contact-text-whiteborder p {
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 900;
+  font-size: 2em;
+  text-align: start;
+  padding: 2em;
+}
+
+
+@media (max-width: 600px) {
+  .section-contact {
+    width: 231.3%;
+    height: 195em;
+  }
+  
+  .contact-text {
+    height: 150em;
+    width: 70em;
+    top: 37em;
+    left: 9em;
+  }
+
+  .section-title-contact h3 {
+    font-size: 7em;
+    left: 0.8em;
+  }
+
+  .bl-contact {
+    width: 39em;
+    height: 9em;
+    top: 9.5em;
+    left: 5em;
+  }
+
+  .contact-text-whiteborder {
+    height: 148em;
+    border: white solid 0.4em;
+  }
+
+  .contact-text-whiteborder p {
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+}

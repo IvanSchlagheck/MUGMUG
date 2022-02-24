@@ -1,0 +1,16 @@
+// Specific CSS for your home-page
+body {
+  width: 100%;
+}
+
+@media (max-width: 1600px) {
+  body {
+    width: 120%;
+  }
+} 
+
+@media (max-width: 600px) {
+  body {
+    width: 157%;
+  }
+}

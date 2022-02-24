@@ -1,0 +1,16 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="container-fluid">
+    <%= link_to root_path do %>
+      <div class="logo"></div>
+    <% end %>
+    <div class="buttons-left">
+      <%= link_to "Home", root_path, class: "nav-button hover-underline-animation-2 a-hover-2", id:"navbar-home" %>
+      <%= link_to "Discover MUG", what_path, class: "nav-button hover-underline-animation-2 a-hover-2", id:"navbar-discover" %>
+      <%= link_to "Clients", clients_path, class: "nav-button hover-underline-animation-2 a-hover-2" %>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>
+<%=  %>

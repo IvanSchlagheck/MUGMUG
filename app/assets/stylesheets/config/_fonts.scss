@@ -1,0 +1,25 @@
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url("//db.onlinewebfonts.com/c/bb040b2b85ee65540759dd70652d2622?family=Trump+Mediaeval");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+// Define fonts for body and headers
+$body-font: "Work Sans", "Helvetica", "sans-serif";
+$headers-font: "Nunito", "Helvetica", "sans-serif";
+$trump: "Trump Mediaeval", "serif";
+$roboto: "Roboto", "sans-serif";
+$bebas: "Bebas Neue", "Roboto", "cursive";
+$fira: 'Fira Sans', sans-serif;
+
+// To use a font file (.woff) uncomment following lines
+// @font-face {
+//   font-family: "Font Name";
+//   src: font-url('FontFile.eot');
+//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+//        font-url('FontFile.woff') format('woff'),
+//        font-url('FontFile.ttf') format('truetype')
+// }
+// $my-font: "Font Name";
+
+
+$logo: url("https://i.ibb.co/hFqCnq0/logo-words.png")

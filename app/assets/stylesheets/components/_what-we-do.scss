@@ -1,0 +1,720 @@
+.wrapper {
+  height: 310em;
+  width: 100%;
+  background-image: url("../../images/banner-img.png");
+  background-position: center center;
+  // background-repeat: repeat;
+  // background-size: 30em;
+}
+
+.wwd-container {
+  position: relative;
+}
+
+.wwd-container h3 {
+  position: absolute;
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  font-size: 4.2em;
+  font-weight: 900;
+  letter-spacing: 1em;
+  text-align: center;
+  top: 2em;
+  left: -1.3em;
+  border: 14px solid white;
+  padding: 2em;
+  width: 22em;
+}
+
+.white-underline {
+  background-color: white;
+  height: 0.3em;
+  position: relative;
+  top: 25em;
+  width: 105em;
+  left: -12em;
+}
+
+// <---------------------Shared styles---------------------------->
+
+.content {
+  position: relative;
+  top: 22em;
+}
+
+.content-card {
+  border: rgba(63, 138, 236, 0.966) solid 15px;
+  text-align: center;
+  color: white;
+  height: 15em;
+  width: 27em;
+  background-color: black;
+}
+
+.content-card-title {
+  font-size: 1.75em;
+  font-weight: 900;
+  padding-top: 0.6em;
+  font-family: $trump;
+  letter-spacing: 0.25em;
+}
+
+.content-card-text {
+  font-size: 1.3em;
+  padding: 0.5em;
+  font-family: $roboto;
+  letter-spacing: 0.1em;
+}
+
+.cards-top {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+}
+
+.cards-bottom {
+  display: flex;
+  margin-top: 3em;
+  justify-content: space-between;
+  font-size: $trump;
+}
+
+.wide-cards-wrapper {
+  position: absolute;
+  top: 20em;
+  color: white;
+  height: 121em;
+}
+
+.card-black-back {
+  border: white solid 5px;
+  height: 17em;
+  width: 80em;
+  position: absolute;
+}
+
+.wide-card {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.card-title {
+  position: absolute;
+  font-family: $trump;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.card-text {
+  position: absolute;
+  width: 26em;
+  height: 3em;
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.6em;
+  line-height: 47px;
+  display: flex;
+  text-align: justify;
+  letter-spacing: -0.05em;
+}
+
+.card-white-border {
+  border: white 3px solid;
+  height: 13.1em;
+}
+
+.white-border {
+  border: 1px solid black;
+}
+
+// ----- Cultural Founding--------
+#wide-card-1 {
+  right: -81em;
+  top: 0em;
+}
+
+#cf-section {
+  top: 60em;
+}
+
+#cf-title {
+  top: 0.5em;
+  right: -17.5em;
+}
+
+#cf-text {
+  left: 7em;
+  top: 5em;
+  width: 37em;
+}
+
+
+
+//<-------------Content------------------------>
+
+.section-title-cf {
+  left: -4em;
+  position: relative;
+}
+
+.section-title-cf h3 {
+  color: white;
+  font-size: 3em;
+  font-family: $roboto;
+  position: absolute;
+  z-index: 1;
+}
+
+.bl-cf {
+  background-color: white;
+  width: 24em;
+  height: 5em;
+  position: absolute;
+  top: -0.5em;
+  transform: rotate(4.4deg);
+}
+
+.content-cf {
+  position: absolute;
+  margin: 9em auto;
+  left: 6em;
+  top: 10em;
+}
+
+.wide-card-cd {
+  border: rgba(63, 138, 236, 0.966) solid 15px;
+  color: white;
+  width: 70em;
+  height: 12em;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+}
+
+.wide-card-white-border {
+  border: 3px white solid;
+  height: 10.1em;
+  width: 68.2em;
+}
+
+.wide-card-cd h4 {
+  font-size: 2.3em;
+  font-weight: 900;
+  padding-top: 0.6em;
+  padding-bottom: 0.7em;
+  font-family: $trump;
+  letter-spacing: 0.25em;
+}
+
+.wide-card-cd p {
+  font-size: 1.3em;
+  font-family: $roboto;
+  letter-spacing: 0.1em;
+}
+
+// ----- External Projects Management------------------------------------------------------------------
+
+#epm-section {
+  top: 53em;
+}
+
+#wide-card-2 {
+  left: 2em;
+  top: 67em;
+}
+
+#epm-title {
+  top: 23em;
+  right: -20.9em;
+}
+
+#epm-text {
+  left: 8em;
+  top: 47em;
+  width: 37em;
+}
+
+//<----------------Content------------------------>
+
+.section-2 {
+  position: absolute;
+  top: 56em;
+}
+
+.section-title-epm {
+  left: -5em;
+  position: relative;
+}
+
+.section-title-epm h3 {
+  color: white;
+  font-size: 3em;
+  font-family: $roboto;
+  position: absolute;
+  z-index: 1;
+  width: 15em;
+}
+
+.bl-epm {
+  background-color: black;
+  width: 40em;
+  height: 5em;
+  position: absolute;
+  top: -0.7em;
+  transform: rotate(4.4deg);
+}
+
+.content-epm {
+  position: absolute;
+  margin: 9em auto;
+  left: 6em;
+  width: 70em;
+  top: 19em;
+}
+
+// ----- Events---------------------------------------------------------------------
+
+#ev-section {
+  top: 43em;
+}
+
+#wide-card-3 {
+  right: -81em;
+  top: 142em;
+}
+
+#ev-title {
+  top: 48em;
+  right: -15em;
+}
+
+#ev-text {
+  left: 10em;
+  top: 94em;
+  width: 35em;
+}
+
+// <-------------------------------------Content EVENTS------------------------------------->
+
+.section-3 {
+  position: absolute;
+  top: 120em;
+}
+
+.section-title-ev {
+  left: -5em;
+  position: relative;
+}
+
+.section-title-ev h3 {
+  color: white;
+  font-size: 3em;
+  font-family: $roboto;
+  position: absolute;
+  z-index: 1;
+  width: 10em;
+}
+
+.bl-ev {
+  background-color: black;
+  width: 10em;
+  height: 5em;
+  position: absolute;
+  top: -0.7em;
+  transform: rotate(4.4deg);
+}
+
+.content-ev {
+  position: absolute;
+  margin: 9em auto;
+  left: 6em;
+  width: 70em;
+  top: 30em;
+}
+
+// ----- Content Creation--------
+
+#wide-card-4 {
+  left: 0em;
+  top: 211em;
+}
+
+#cc-title {
+  top: 71em;
+  right: -17em;
+}
+
+#cc-text {
+  left: 7em;
+  top: 138em;
+  width: 38em;
+}
+
+// <---------------------CONTENT CC------------------------------->
+
+#cc-section {
+  top: 37em;
+}
+
+.section-4 {
+  position: absolute;
+  top: 180em;
+}
+
+.section-title-cc {
+  left: -5em;
+  position: relative;
+}
+
+.section-title-cc h3 {
+  color: white;
+  font-size: 3em;
+  font-family: $roboto;
+  position: absolute;
+  z-index: 1;
+  width: 10em;
+}
+
+.bl-cc {
+  background-color: black;
+  width: 23em;
+  height: 5em;
+  position: absolute;
+  top: -0.7em;
+  transform: rotate(4.4deg);
+}
+
+.content-cc {
+  position: absolute;
+  margin: 9em auto;
+  left: 6em;
+  width: 70em;
+  top: 39em;
+}
+
+#music-production-text {
+  padding: 0em;
+}
+
+// <---------------------Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media ----------------------------->
+
+@media (max-width: 1400px) {
+
+  .white-underline {
+    width: 74em;
+    left: -3em;
+    top: 30em;
+  }
+
+  .wwd-container h3 {
+    left: 0.8em;
+    width: 15em;
+  }
+
+  #cf-section {
+    left: -5.5em;
+  }
+
+  #epm-section {
+    left: -6em;
+  }
+
+  #ev-section {
+    left: -5.5em;
+  }
+
+  #cc-section {
+    left: -4.5em;
+    top: 35.5em;
+  }
+
+}
+
+@media (max-width: 600px) {
+  
+  .wrapper {
+    width: 88.5em;
+    height: 565em;
+  }
+
+  .wwd-container h3 {
+    font-size: 4.2em;
+    top: 2em;
+    left: 1.5em;
+    text-align: center;
+    border: 14px solid white;
+    padding: 0.5em;
+    width: 18em;
+  }
+
+  .white-underline {
+    display: none;
+  }
+
+  //<-----------------Shares Styles-------------------------------->
+
+  .content {
+    width: 90%;
+  }
+
+  .content-card {
+    height: 31em;
+    width: 32em;
+  }
+
+  .card-white-border {
+    border: white 6px solid;
+    height: 29.1em;
+  }
+
+  .content-card-title {
+    font-size: 3em;
+  }
+
+  .content-card-text {
+    font-size: 2.3em;
+  }
+
+  .card-black-back {
+    height: 45em;
+    border: white solid 15px;
+  }
+
+  // <----------------- Cultural Founding ------------------------->
+
+  #wide-card-1 {
+    transform: rotate(0deg);
+    right: -83.5em;
+    top: 12em;
+  }
+
+  #cf-section {
+    top: 35em;
+    left: 1em;
+  }
+
+  #cf-title {
+    top: 3em;
+    right: -12.7em;
+    font-size: 5em;
+  }
+
+  #cf-text {
+    left: 2.7em;
+    top: 6em;
+    font-size: 4em;
+    width: 16em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1em;
+  }
+
+  .section-title-cf {
+    left: 8em;
+  }
+
+  .section-title-cf h3 {
+    font-size: 5em;
+  }
+
+  .bl-cf {
+    width: 41em;
+    height: 8em;
+    top: -1em;
+  }
+
+
+  .content-cf {
+    left: 9em;
+    top: 50em;
+  }
+
+  .wide-card-cd {
+    width: 70em;
+    height: 24em;
+  }
+
+  .wide-card-white-border {
+    border: 6px white solid;
+    height: 22.1em;
+  }
+
+  .wide-card-cd h4 {
+    font-size: 4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.7em;
+  }
+
+  .wide-card-cd p {
+    font-size: 2.5em;
+  }
+
+  // <----------------- External Project Management ------------------------->
+
+  #epm-section {
+    top: 46em;
+    left: 1em;
+  }
+
+  #wide-card-2 {
+    transform: rotate(0deg);
+    top: 118em;
+    left: 3.5em;
+  }
+
+  #epm-title {
+    top: 24em;
+    right: -14.1em;
+    font-size: 5em;
+    width: 11em;
+    text-align: center;
+  }
+
+  #epm-text {
+    left: 3em;
+    margin: auto;
+    top: 34em;
+    font-size: 4em;
+    width: 16em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1em;
+  }
+
+  .section-2 {
+    top: 80em;
+  }
+
+  .content-epm {
+    left: 8em;
+    top: 75em;
+  }
+
+  .section-title-epm {
+    left: 8em;
+  }
+
+  .section-title-epm h3 {
+    font-size: 5em;
+  }
+
+  .bl-epm {
+    width: 68em;
+    height: 8em;
+    top: -1em;
+  }
+
+  // <--------------------------------- Events ------------------------------------->
+
+  #wide-card-3 {
+    transform: rotate(0deg);
+    left: 3em;
+    top: 112em;
+  }
+  
+  #ev-section {
+    top: 179em;
+    left: 1.3em;
+  }
+
+  #ev-title {
+    top: 23em;
+    right: -10em;
+    font-size: 5em;
+    width: 3em;
+    text-align: center;
+  }
+
+  #ev-text {
+    left: 4.7em;
+    margin: auto;
+    top: 33em;
+    font-size: 4em;
+    width: 12em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1em;
+  }
+
+  .section-3 {
+    position: absolute;
+    top: 165em;
+  }
+
+
+  .content-ev {
+    left: 8em;
+    top: -15em;
+  }
+
+  .section-title-ev {
+    left: 8em;
+  }
+
+  .section-title-ev h3 {
+    font-size: 5em;
+  }
+
+  .bl-ev {
+    width: 16em;
+    height: 8em;
+    top: -1em;
+  }
+
+  // <--------------------------------- Content Creation ------------------------------------->
+
+  #wide-card-4 {
+    transform: rotate(0deg);
+    top: 178em;
+    left: 3.5em;
+  }
+
+  #cc-section {
+    top: 241em;
+    left: 1em;
+  }
+
+  #cc-title {
+    top: 36em;
+    right: -14.1em;
+    font-size: 5em;
+    width: 11em;
+    text-align: center;
+  }
+
+  #cc-text {
+    left: 4.7em;
+    margin: auto;
+    top: 49em;
+    font-size: 4em;
+    width: 12em;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .section-4 {
+    position: absolute;
+    top: 250em;
+  }
+
+  .content-cc {
+    left: 8em;
+    top: -35em;
+  }
+
+  .section-title-cc {
+    left: 8em;
+  }
+
+  .section-title-cc h3 {
+    font-size: 5em;
+  }
+
+  .bl-cc {
+    width: 39em;
+    height: 8em;
+    top: -1em;
+  }
+}

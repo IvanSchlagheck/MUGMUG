@@ -1,0 +1,91 @@
+.section-about {
+  height: 80em;
+  background-image: url("../../images/banner-img.png");
+  position: relative;
+}
+
+.section-title-about h3 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-family: "Roboto", "sans-serif";
+  font-size: 3em;
+  font-weight: 700;
+  top: 1.4em;
+  left: 6.8em;
+}
+
+.bl-about {
+  background-color: black;
+  width: 16em;
+  height: 5em;
+  position: absolute;
+  top: 3.5em;
+  transform: rotate(4.4deg);
+  left: 19em;
+}
+
+.about-text {
+  position: absolute;
+  background-color: black;
+  height: 60em;
+  width: 70em;
+  top: 13em;
+  left: 28em;
+}
+
+.about-text-whiteborder {
+  border: white solid 0.1em;
+  height: 58em;
+  width: 68em;
+  padding-top: 0em;
+  margin: 1em auto;
+}
+
+.about-text-whiteborder p {
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 900;
+  font-size: 2em;
+  text-align: start;
+  padding: 2em;
+}
+
+
+
+@media (max-width: 600px) {
+  .section-about {
+    width: 231.3%;
+    height: 225em;
+  }
+  
+  .about-text {
+    height: 180em;
+    width: 70em;
+    top: 37em;
+    left: 9em;
+  }
+
+  .section-title-about h3 {
+    font-size: 7em;
+    left: 0.8em;
+  }
+
+  .bl-about {
+    width: 31em;
+    height: 9em;
+    top: 9.5em;
+    left: 5em;
+  }
+
+  .about-text-whiteborder {
+    height: 178em;
+    border: white solid 0.4em;
+  }
+
+  .about-text-whiteborder p {
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+}

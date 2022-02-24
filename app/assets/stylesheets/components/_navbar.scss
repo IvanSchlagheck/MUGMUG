@@ -1,0 +1,118 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: black;
+  height: 5em;
+  border-bottom: 0.1em white solid;
+}
+
+.logo {
+  background-image: url(https://i.ibb.co/hFqCnq0/logo-words.png);
+    background-size: cover;
+    background-position: center;
+    height: 4em;
+    width: 25em;
+    transform: translate(1em, -1em);
+    margin-top: 2em;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.nav-button-what {
+  font-family: $trump;
+  text-decoration: none;
+  color: white;
+  font-size: 1.75em;
+}
+
+.nav-button {
+  font-family: $roboto;
+  color: white;
+  font-size: 1.75em;
+  margin-right: 1.5em;
+  //background-color: black;
+  text-align: center;
+  letter-spacing: 0.5em;
+  line-height: 0.3em;
+  text-decoration: none;
+}
+
+#navbar-home {
+  display: none;
+}
+
+//<------------------------------------links-underline-animation--------------------------->
+
+.hover-underline-animation-2 {
+  display: inline-block;
+  position: relative;
+}
+
+.a-hover-2:hover {
+  color: white;
+}
+
+.hover-underline-animation-2:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -0.3em;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.hover-underline-animation-2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+// <------------------------- Media---------------------------------->
+
+@media (max-width: 600px) { //<------------------------ Mobile Friendly-----------------
+  .navbar {
+    width: 88.5em;
+    height: 15em;
+  }
+
+  .nav-button {
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin: 0.5em;
+  }
+
+  #navbar-home {
+    display: inline-block;
+  }
+
+  #navbar-discover {
+    border: 5px white solid;
+    padding: 1em;
+  }
+  
+  .logo {
+    display: none;
+  }
+
+  .nav-toggler {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .buttons-left {
+    margin: auto;
+  }
+}
+
+

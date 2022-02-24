@@ -1,0 +1,244 @@
+// .hwd-wrapper {
+//   height: 270em;
+//   width: 100%;
+//   background-image: url("../../images/banner-img.png");
+//   background-position: center center;
+//   // background-repeat: repeat;
+//   // background-size: 22em;
+// }
+
+// // <----------------- External Project Management ------------------------->
+
+// .section-2 {
+//   position: absolute;
+//   top: 56em;
+// }
+
+// .section-title-epm {
+//   left: -5em;
+//   position: relative;
+// }
+
+// .section-title-epm h3 {
+//   color: white;
+//   font-size: 3em;
+//   font-family: $roboto;
+//   position: absolute;
+//   z-index: 1;
+//   width: 15em;
+// }
+
+// .bl-epm {
+//   background-color: black;
+//   width: 40em;
+//   height: 5em;
+//   position: absolute;
+//   top: -0.7em;
+//   transform: rotate(4.4deg);
+// }
+
+// .content-epm {
+//   position: absolute;
+//   margin: 9em auto;
+//   left: 6em;
+//   width: 70em;
+//   top: 25em;
+// }
+
+// // <--------------------------------- Events ------------------------------------->
+
+// .section-3 {
+//   position: absolute;
+//   top: 120em;
+// }
+
+// .section-title-ev {
+//   left: -5em;
+//   position: relative;
+// }
+
+// .section-title-ev h3 {
+//   color: white;
+//   font-size: 3em;
+//   font-family: $roboto;
+//   position: absolute;
+//   z-index: 1;
+//   width: 10em;
+// }
+
+// .bl-ev {
+//   background-color: black;
+//   width: 10em;
+//   height: 5em;
+//   position: absolute;
+//   top: -0.7em;
+//   transform: rotate(4.4deg);
+// }
+
+// .content-ev {
+//   position: absolute;
+//   margin: 9em auto;
+//   left: 6em;
+//   width: 70em;
+// }
+
+// // <--------------------------------- Content Creation ------------------------------------->
+
+// @media (max-width: 600px) {
+
+//   //<------------Title--------------------------------->
+
+//   .hwd-wrapper {
+//     height: 360em;
+//     width: 138%;
+//   }
+
+//   .hwd-container h2 {
+//     font-size: 4em;
+//     top: 5em;
+//     width: 16em;
+//     left: 4em;
+//   }
+  
+//   .hwd-white-underline {
+//     height: 0.5em;
+//     top: 11em;
+//     width: 55em;
+//     left: 14.9em;
+//     display: none;
+//   }
+
+//   .content {
+//     width: 90%
+//   }
+  
+
+//   //<-----------------Shares Styles-------------------------------->
+
+//   .content-card {
+//     height: 31em;
+//     width: 32em;
+//   }
+
+//   .content-card-title {
+//     font-size: 3.5em;
+//   }
+
+//   .content-card-text {
+//     font-size: 2.3em;
+//   }
+  
+
+//   // <----------------- Cultural Founding ------------------------->
+
+//   .section-title-cf {
+//     left: 8em;
+//   }  
+  
+//   .section-title-cf h3 {
+//     font-size: 5em;
+//   }
+  
+//   .bl-cf {
+//     width: 41em;
+//     height: 8em;
+//     top: -1em;
+//   }
+  
+//   .content-cf {
+//     left: 8em;
+//     top: 4em;
+//   }
+
+//   .wide-card-cd {
+//     width: 70em;
+//     height: 24em;
+//   }
+  
+//   .wide-card-cd h4 {
+//     font-size: 4em;
+//     padding-top: 0.6em;
+//     padding-bottom: 0.7em;
+//   }
+  
+//   .wide-card-cd p{
+//     font-size: 2.5em;
+//   }
+
+//   // <----------------- External Project Management ------------------------->
+
+//   .section-2 {
+//     top: 80em;
+//   }
+
+//   .content-epm {
+//     left: 8em;
+//   }
+
+//   .section-title-epm {
+//     left: 8em;
+//   }  
+  
+//   .section-title-epm h3 {
+//     font-size: 5em;
+//   }
+  
+//   .bl-epm {
+//     width: 68em;
+//     height: 8em;
+//     top: -1em;
+//   }
+
+
+//   // <--------------------------------- Events ------------------------------------->
+
+//   .section-3 {
+//     position: absolute;
+//     top: 165em;
+// }
+
+//   .content-ev {
+//     left: 8em;
+//   }
+
+//   .section-title-ev {
+//     left: 8em;
+//   }  
+
+//   .section-title-ev h3 {
+//     font-size: 5em;
+//   }
+
+//   .bl-ev {
+//     width: 16em;
+//     height: 8em;
+//     top: -1em;
+//   }
+
+// // <--------------------------------- Content Creation ------------------------------------->
+
+//   .section-4 {
+//     position: absolute;
+//     top: 250em;
+//   }
+
+//   .content-cc {
+//     left: 8em;
+//   }
+
+//   .section-title-cc {
+//     left: 8em;
+//   }  
+  
+//   .section-title-cc h3 {
+//     font-size: 5em;
+//   }
+  
+//   .bl-cc {
+//     width: 39em;
+//     height: 8em;
+//     top: -1em;
+//   }
+
+// }
+
