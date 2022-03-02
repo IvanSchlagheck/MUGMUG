@@ -230,11 +230,16 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
     
+    .banner {
+      width: 166%;
+    }
+
     .banner .banner-container {
-      left: 9%;
+      margin: auto;
       font-size: 0.8em;
       top: 77em;
       width: 102em;
+      left: 21%;
     }
 
     .black-line-music {
@@ -248,8 +253,7 @@
     }
 
     .banner-content-white-line {
-      width: 100%;
-      left: 4em;
+      display: none;
     }
   
     .banner-white-border {

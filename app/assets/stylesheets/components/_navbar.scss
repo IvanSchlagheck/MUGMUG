@@ -7,12 +7,12 @@
 
 .logo {
   background-image: url(https://i.ibb.co/hFqCnq0/logo-words.png);
-    background-size: cover;
-    background-position: center;
-    height: 4em;
-    width: 25em;
-    transform: translate(1em, -1em);
-    margin-top: 2em;
+  background-size: cover;
+  background-position: center;
+  height: 4em;
+  width: 25em;
+  transform: translate(1em, -1em);
+  margin-top: 2em;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -77,7 +77,14 @@
 
 // <------------------------- Media---------------------------------->
 
-@media (max-width: 900px) { //<------------------------ Mobile Friendly-----------------
+@media screen and (min-device-width: 900px) and (max-device-width: 2700px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .navbar {
+    width: 166%;
+  }
+}
+
+@media (max-width: 900px) {
+  //<------------------------ Mobile Friendly-----------------
   .navbar {
     width: 131.5em;
     height: 15em;
@@ -97,7 +104,7 @@
     border: 5px white solid;
     padding: 1em;
   }
-  
+
   .logo {
     display: none;
   }
@@ -115,10 +122,8 @@
   }
 }
 
-
-
-
-@media screen and (min-width: 391px) and (max-width: 600px) { //<------------------------ Mobile Friendly-----------------
+@media screen and (min-width: 391px) and (max-width: 600px) {
+  //<------------------------ Mobile Friendly-----------------
   .navbar {
     width: 130.3em;
     height: 15em;
@@ -138,7 +143,7 @@
     border: 5px white solid;
     padding: 1em;
   }
-  
+
   .logo {
     display: none;
   }
@@ -156,7 +161,8 @@
   }
 }
 
-@media (max-width: 390px) { //<------------------------ Mobile Friendly-----------------
+@media (max-width: 390px) {
+  //<------------------------ Mobile Friendly-----------------
   .navbar {
     width: 88.5em;
     height: 15em;
@@ -176,7 +182,7 @@
     border: 5px white solid;
     padding: 1em;
   }
-  
+
   .logo {
     display: none;
   }
@@ -193,6 +199,3 @@
     margin: auto;
   }
 }
-
-
-

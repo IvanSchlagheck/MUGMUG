@@ -135,12 +135,18 @@ a > i {
   transform-origin: bottom left;
 }
 
+@media screen and (min-device-width: 900px) and (max-device-width: 2700px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  
+  .top-footer {
+    width: 166%;
+  }
 
-@media (max-width: 1400px) {
+  .bottom-footer {
+    width: 166%;
+  }
   .social-media-links {
     padding-right: 0em;
-    position: absolute;
-    left: 29em;
+    display: contents;
   }
 
   .footer-img {
