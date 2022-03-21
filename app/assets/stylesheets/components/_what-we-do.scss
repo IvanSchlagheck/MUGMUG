@@ -400,6 +400,12 @@
 
 // <---------------------Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media Media ----------------------------->
 
+@media (max-width: 2700px) {
+  .wrapper{
+    width: 166%;
+  }
+}
+
 @media (max-width: 1400px) {
 
   .white-underline {
@@ -432,12 +438,15 @@
 
 }
 
-@media (max-width: 600px) {
-  
+@media screen and (max-width: 900px) {
   .wrapper {
-    width: 88.5em;
-    height: 565em;
+    width: 131.5em;
   }
+
+  .wwd-container {
+    left: -20%;
+  }
+
 
   .wwd-container h3 {
     font-size: 4.2em;
@@ -717,4 +726,312 @@
     height: 8em;
     top: -1em;
   }
+
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 600px) {  
+
+  .wrapper {
+    width: 130em;
+    height: 565em;
+  }
+  
+  .wwd-container {
+    left: -20%;
+  }
+
+
+  .wwd-container h3 {
+    font-size: 4.2em;
+    top: 2em;
+    left: 1.5em;
+    text-align: center;
+    border: 14px solid white;
+    padding: 0.5em;
+    width: 18em;
+  }
+
+  .white-underline {
+    display: none;
+  }
+
+  //<-----------------Shares Styles-------------------------------->
+
+  .content {
+    width: 90%;
+  }
+
+  .content-card {
+    height: 31em;
+    width: 32em;
+  }
+
+  .card-white-border {
+    border: white 6px solid;
+    height: 29.1em;
+  }
+
+  .content-card-title {
+    font-size: 3em;
+  }
+
+  .content-card-text {
+    font-size: 2.3em;
+  }
+
+  .card-black-back {
+    height: 45em;
+    border: white solid 15px;
+  }
+
+  // <----------------- Cultural Founding ------------------------->
+
+  #wide-card-1 {
+    transform: rotate(0deg);
+    right: -83.5em;
+    top: 12em;
+  }
+
+  #cf-section {
+    top: 35em;
+    left: 1em;
+  }
+
+  #cf-title {
+    top: 3em;
+    right: -12.7em;
+    font-size: 5em;
+  }
+
+  #cf-text {
+    left: 2.7em;
+    top: 6em;
+    font-size: 4em;
+    width: 16em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1em;
+  }
+
+  .section-title-cf {
+    left: 8em;
+  }
+
+  .section-title-cf h3 {
+    font-size: 5em;
+  }
+
+  .bl-cf {
+    width: 41em;
+    height: 8em;
+    top: -1em;
+  }
+
+
+  .content-cf {
+    left: 9em;
+    top: 50em;
+  }
+
+  .wide-card-cd {
+    width: 70em;
+    height: 24em;
+  }
+
+  .wide-card-white-border {
+    border: 6px white solid;
+    height: 22.1em;
+  }
+
+  .wide-card-cd h4 {
+    font-size: 4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.7em;
+  }
+
+  .wide-card-cd p {
+    font-size: 2.5em;
+  }
+
+  // <----------------- External Project Management ------------------------->
+
+  #epm-section {
+    top: 46em;
+    left: 1em;
+  }
+
+  #wide-card-2 {
+    transform: rotate(0deg);
+    top: 118em;
+    left: 3.5em;
+  }
+
+  #epm-title {
+    top: 24em;
+    right: -14.1em;
+    font-size: 5em;
+    width: 11em;
+    text-align: center;
+  }
+
+  #epm-text {
+    left: 3em;
+    margin: auto;
+    top: 34em;
+    font-size: 4em;
+    width: 16em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1em;
+  }
+
+  .section-2 {
+    top: 80em;
+  }
+
+  .content-epm {
+    left: 8em;
+    top: 75em;
+  }
+
+  .section-title-epm {
+    left: 8em;
+  }
+
+  .section-title-epm h3 {
+    font-size: 5em;
+  }
+
+  .bl-epm {
+    width: 68em;
+    height: 8em;
+    top: -1em;
+  }
+
+  // <--------------------------------- Events ------------------------------------->
+
+  #wide-card-3 {
+    transform: rotate(0deg);
+    left: 3em;
+    top: 112em;
+  }
+  
+  #ev-section {
+    top: 179em;
+    left: 1.3em;
+  }
+
+  #ev-title {
+    top: 23em;
+    right: -10em;
+    font-size: 5em;
+    width: 3em;
+    text-align: center;
+  }
+
+  #ev-text {
+    left: 4.7em;
+    margin: auto;
+    top: 33em;
+    font-size: 4em;
+    width: 12em;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1em;
+  }
+
+  .section-3 {
+    position: absolute;
+    top: 165em;
+  }
+
+
+  .content-ev {
+    left: 8em;
+    top: -15em;
+  }
+
+  .section-title-ev {
+    left: 8em;
+  }
+
+  .section-title-ev h3 {
+    font-size: 5em;
+  }
+
+  .bl-ev {
+    width: 16em;
+    height: 8em;
+    top: -1em;
+  }
+
+  // <--------------------------------- Content Creation ------------------------------------->
+
+  #wide-card-4 {
+    transform: rotate(0deg);
+    top: 178em;
+    left: 3.5em;
+  }
+
+  #cc-section {
+    top: 241em;
+    left: 1em;
+  }
+
+  #cc-title {
+    top: 36em;
+    right: -14.1em;
+    font-size: 5em;
+    width: 11em;
+    text-align: center;
+  }
+
+  #cc-text {
+    left: 4.7em;
+    margin: auto;
+    top: 49em;
+    font-size: 4em;
+    width: 12em;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .section-4 {
+    position: absolute;
+    top: 250em;
+  }
+
+  .content-cc {
+    left: 8em;
+    top: -35em;
+  }
+
+  .section-title-cc {
+    left: 8em;
+  }
+
+  .section-title-cc h3 {
+    font-size: 5em;
+  }
+
+  .bl-cc {
+    width: 39em;
+    height: 8em;
+    top: -1em;
+  }
+}
+
+@media (max-width: 390px) {
+  .wrapper {
+    width: 88.5em;
+    height: 550em;
+  }
+
+  .wwd-container {
+    left: -30%;
+  }
+
 }
